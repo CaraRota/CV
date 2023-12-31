@@ -15,9 +15,9 @@ export const RESUME_DATA = {
   location: "Canals, Cordoba, Argentina",
   locationLink: "https://maps.app.goo.gl/z8z4ZhLXkLaBEThN7",
   about:
-    "Full Stack Developer focused on building products with extra attention to detail",
+    "Full Stack Developer focused on building products with extra attention to detail and prone to delivering quality software solutions.",
   summary:
-    "As a Full Stack Developer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As a Full Stack Developer, I am capable of developing products from 0 to 1. I am leaned towards building software that is scalable, easy to use, and that provide a great user experience. My studies in business administration and my experience as a business owner have given me a unique perspective on how to build products that are not only technically sound but also that are aligned with the business goals of the company.",
   avatarUrl: "https://media.licdn.com/dms/image/D4D03AQFmTbqv6Qllfg/profile-displayphoto-shrink_800_800/0/1698201392969?e=1709769600&v=beta&t=RmVFmBLT9MnZRgKL8f4rKFrEllcFCFmmreEx7X0ucGA",
   personalWebsiteUrl: "https://ouidev.netlify.app/",
   contact: {
@@ -77,7 +77,7 @@ export const RESUME_DATA = {
       start: "2012",
       end: "Present",
       description:
-        "Camia Hnos! is a electronics retail store in Canals, Cordoba. I am responsible for the day-to-day operations of the business, including managing employees, overseeing the financials, and ensuring we are delivering the best customer experience possible.",
+        "Camia Hnos! is an electronics retail store in Canals, Cordoba. I am responsible for the day-to-day operations of the business, including managing employees, overseeing the financials, and ensuring we are delivering the best customer experience possible.",
     },
   ],
   skills: [
