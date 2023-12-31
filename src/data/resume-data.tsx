@@ -1,278 +1,165 @@
 import {
-  AmbitLogo,
   BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
   ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
   JarockiMeLogo,
-  JojoMobileLogo,
   Minimal,
-  MobileVikingsLogo,
   MonitoLogo,
-  NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Sebastian Camia Trefs",
+  initials: "SEC",
+  location: "Canals, Cordoba, Argentina",
+  locationLink: "https://maps.app.goo.gl/z8z4ZhLXkLaBEThN7",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Full Stack Developer focused on building products with extra attention to detail",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Full Stack Developer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+  avatarUrl: "https://media.licdn.com/dms/image/D4D03AQFmTbqv6Qllfg/profile-displayphoto-shrink_800_800/0/1698201392969?e=1709769600&v=beta&t=RmVFmBLT9MnZRgKL8f4rKFrEllcFCFmmreEx7X0ucGA",
+  personalWebsiteUrl: "https://ouidev.netlify.app/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "logicalbrainstudio@gmail.com",
+    tel: "+5493463645114",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/CaraRota/",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/sebastian-emanuel-camia-trefs/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/CaraRota77",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universidad de San Andres",
+      degree: "Bachelor's Degree in Business Administration",
+      start: "2004",
+      end: "2008",
     },
+    {
+      school: "CoderHouse.com",
+      degree: "Full Stack Developer (MERN Stack)",
+      start: "2022",
+      end: "2023",
+    },
+    {
+      school: "Cambridge University",
+      degree: "First Certificate in English (FCE)",
+      start: "2003",
+      end: "2003",
+    },
+    {
+      school: "EFSet.org",
+      degree: "Certificate of Proficiency in English. Score: 76/100 (C2 Proficient)",
+      start: "2023",
+      end: "2023",
+    }
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Camia Hnos!",
+      link: "#",
+      badges: ["Hybrid"],
+      title: "General Manager",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
       start: "2012",
-      end: "2015",
+      end: "Present",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Camia Hnos! is a electronics retail store in Canals, Cordoba. I am responsible for the day-to-day operations of the business, including managing employees, overseeing the financials, and ensuring we are delivering the best customer experience possible.",
     },
   ],
   skills: [
+    "HTML5",
+    "CSS3",
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "ReactJS",
+    "NodeJS",
+    "SQL",
+    "Material UI",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Ruta 3 SRL",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
+        "Webapp",
+        "ReactJS",
         "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Firebase",
+        "Firestore",
       ],
-      description: "A platform to build and grow your online business",
+      description: "A platform for managing the operations and logistics of a trucking company. It includes a dashboard for the company's managers and a mobile app for the drivers.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "ruta3 link",
+        href: "https://ruta3.netlify.app/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Rucula Web",
+      techStack: ["Side Project", "ReactJS", "Vite"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "A website that shows different dollar exchange rates in Argentina. It also includes cryptocurrency rates and also the main stock market indexes.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "rucula web",
+        href: "https://ruculaweb.netlify.app/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Oui Dev",
+      techStack: ["Portfolio", "JavaScript", "HTML5", "CSS3", "SASS"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "My personal website. It's one of my first websites built with vanilla JavaScript, HTML and CSS and SASS.",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://ouidev.netlify.app/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "How is it outside?",
+      techStack: ["Side Project", "ReactJS", "SASS"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Very basic weather app that shows the current weather in your location; it combines two APIs (geolocalization + weather).",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "weather app",
+        href: "https://howisitoutside.netlify.app/",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Dulce Flor",
+      techStack: ["Freelance", "ReactJS", "SASS"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+        "Developed a website for a local flower-based jam shop. It includes a gallery of the products, a contact form, and a map with the location of the store.",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "Dulce Flor",
+        href: "https://dulceflor.netlify.app/",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
+      title: "eCommerce",
+      techStack: ["Project", "ReactJS", "Material UI", "Firebase"],
+      description:
+        "An eCommerce website built with ReactJS and Material UI. It includes a shopping cart and a checkout page. It was developed as the final project for a ReactJS course.",
       logo: YearProgressLogo,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "year progress",
+        href: "https://scamiaecommerce.netlify.app/",
       },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    }
   ],
 } as const;
