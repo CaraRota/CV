@@ -47,30 +47,34 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Business Administration",
       start: "2004",
       end: "2008",
+      link: "https://www.udesa.edu.ar/",
     },
     {
       school: "CoderHouse.com",
       degree: "Full Stack Developer (MERN Stack)",
       start: "2022",
       end: "2023",
+      link: null,
     },
     {
       school: "Cambridge University",
       degree: "First Certificate in English (FCE)",
       start: "2003",
       end: "2003",
+      link: null,
     },
     {
       school: "EFSet.org",
       degree: "Certificate of Proficiency in English. Score: 76/100 (C2 Proficient)",
       start: "2023",
       end: "2023",
+      link: "https://www.efset.org/cert/USqt9c"
     }
   ],
   work: [
     {
       company: "Camia Hnos!",
-      link: "#",
+      link: null,
       badges: ["Hybrid"],
       title: "General Manager",
       logo: ParabolLogo,
@@ -86,8 +90,15 @@ export const RESUME_DATA = {
     "JavaScript",
     "ReactJS",
     "NodeJS",
-    "SQL",
-    "Material UI",
+  ],
+  softSkills: [
+    "Problem Solving",
+    "Critical Thinking",
+    "Time Management",
+    "Leadership",
+    "Teamwork",
+    "Adaptability",
+    "Flexibility",
   ],
   projects: [
     {
@@ -103,7 +114,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       link: {
         label: "ruta3 link",
-        href: "https://ruta3.netlify.app/",
+        href: "https://ruta-3-app.web.app/",
       },
     },
     {
