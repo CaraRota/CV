@@ -23,6 +23,7 @@ export const RESUME_DATA = {
   contact: {
     email: "logicalbrainstudio@gmail.com",
     tel: "+5493463645114",
+    pdfResumeUrl: "https:",
     social: [
       {
         name: "GitHub",
@@ -95,6 +96,7 @@ export const RESUME_DATA = {
     "Problem Solving",
     "Critical Thinking",
     "Time Management",
+    "Detail Oriented",
     "Leadership",
     "Teamwork",
     "Adaptability",
