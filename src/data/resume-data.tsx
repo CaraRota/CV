@@ -112,7 +112,7 @@ export const RESUME_DATA = {
         "Firebase",
         "Firestore",
       ],
-      description: "A platform for managing the operations and logistics of a trucking company. It includes a dashboard for the company's managers and a mobile app for the drivers.",
+      description: "A webapp for managing the operations and logistics of a transport company. It includes a dashboard for the company's managers and a mobile app for the drivers.",
       logo: ConsultlyLogo,
       link: {
         label: "ruta3 link",
@@ -123,7 +123,7 @@ export const RESUME_DATA = {
       title: "Rucula Web",
       techStack: ["Side Project", "ReactJS", "Vite"],
       description:
-        "A website that shows different dollar exchange rates in Argentina. It also includes cryptocurrency rates and also the main stock market indexes.",
+        "A website that shows different dollar exchange rates in Argentina. It also includes cryptocurrency prices and the main stock market indexes.",
       logo: MonitoLogo,
       link: {
         label: "rucula web",
@@ -131,10 +131,32 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "eCommerce w/ Firebase",
+      techStack: ["Project", "ReactJS", "Material UI", "Firebase"],
+      description:
+        "An eCommerce website built with ReactJS and Material UI. It includes a shopping cart and a checkout page. It was developed as the final project for my ReactJS course.",
+      logo: YearProgressLogo,
+      link: {
+        label: "year progress",
+        href: "https://scamiaecommerce.netlify.app/",
+      },
+    },
+    {
+      title: "eCommerce w/ NodeJS",
+      techStack: ["Project", "ReactJS", "Material UI", "NodeJS", "Express", "MongoDB"],
+      description:
+        "An eCommerce website built with ReactJS and Material UI for the frontend, and NodeJS, MongoDB and Express for the backend.",
+      logo: YearProgressLogo,
+      link: {
+        label: "year progress",
+        href: "https://scamiacommerce2.netlify.app/",
+      },
+    },
+    {
       title: "Oui Dev",
       techStack: ["Portfolio", "JavaScript", "HTML5", "CSS3", "SASS"],
       description:
-        "My personal website. It's one of my first websites built with vanilla JavaScript, HTML and CSS and SASS.",
+        "My personal website. It's one of my first projects. Built with vanilla JavaScript, HTML, CSS and SASS.",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
@@ -145,7 +167,7 @@ export const RESUME_DATA = {
       title: "How is it outside?",
       techStack: ["Side Project", "ReactJS", "SASS"],
       description:
-        "Very basic weather app that shows the current weather in your location; it combines two APIs (geolocalization + weather).",
+        "A very basic weather app that shows the current weather in your current location; the interesting part of it is that it combines two APIs together (geolocalization + weather).",
       logo: Minimal,
       link: {
         label: "weather app",
@@ -156,23 +178,12 @@ export const RESUME_DATA = {
       title: "Dulce Flor",
       techStack: ["Freelance", "ReactJS", "SASS"],
       description:
-        "Developed a website for a local flower-based jam shop. It includes a gallery of the products, a contact form, and a map with the location of the store.",
+        "Developed a website for a local flower-based jam shop. It includes a hero, a contact form, and a map with the location of the store.",
       logo: BarepapersLogo,
       link: {
         label: "Dulce Flor",
         href: "https://dulceflor.netlify.app/",
       },
     },
-    {
-      title: "eCommerce",
-      techStack: ["Project", "ReactJS", "Material UI", "Firebase"],
-      description:
-        "An eCommerce website built with ReactJS and Material UI. It includes a shopping cart and a checkout page. It was developed as the final project for a ReactJS course.",
-      logo: YearProgressLogo,
-      link: {
-        label: "year progress",
-        href: "https://scamiaecommerce.netlify.app/",
-      },
-    }
   ],
 } as const;
