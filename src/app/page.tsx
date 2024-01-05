@@ -8,6 +8,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import GreenDot from "@/components/ui/greenDot";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -105,15 +106,18 @@ export default function Page() {
               <Card key={education.school}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       {education.link ? (
-                        <a
-                          className="hover:underline"
-                          href={education.link}
-                          target="_blank"
-                        >
-                          {education.school}
-                        </a>
+                        <>
+                          <GreenDot />
+                          <a
+                            className="hover:underline"
+                            href={education.link}
+                            target="_blank"
+                          >
+                            {education.school}
+                          </a>
+                        </>
                       ) : (
                         education.school
                       )}
@@ -137,13 +141,16 @@ export default function Page() {
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       {work.link ? (
-                        <a
-                          className="hover:underline"
-                          href={work.link}
-                          target="_blank"
-                        >
-                          {work.company}
-                        </a>
+                        <>
+                          <GreenDot />
+                          <a
+                            className="hover:underline"
+                            href={work.link}
+                            target="_blank"
+                          >
+                            {work.company}
+                          </a>
+                        </>
                       ) : (
                         work.company
                       )}

@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "./ui/card";
 import { Badge } from "./ui/badge";
+import GreenDot from "./ui/greenDot";
 
 interface Props {
   title: string;
@@ -26,8 +27,8 @@ export function ProjectCard({ title, description, tags, link }: Props) {
                 target="_blank"
                 className="inline-flex items-center gap-1 hover:underline"
               >
-                {title}{" "}
-                <span className="h-1 w-1 rounded-full bg-green-500"></span>
+                <GreenDot />
+                {title}
               </a>
             ) : (
               title
