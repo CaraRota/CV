@@ -11,7 +11,7 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
-import GreenDot from "./ui/greenDot";
+import GreenDot from "@/components/ui/greenDot";
 
 interface Props {
   links: { url: string; title: string }[];
