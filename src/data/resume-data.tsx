@@ -18,12 +18,12 @@ export const RESUME_DATA = {
     "Full Stack Developer focused on building products with extra attention to detail and prone to delivering quality software solutions.",
   summary:
     "As a Full Stack Developer, I am capable of developing products from 0 to 1. I am leaned towards building software that is scalable, easy to use, and that provide a great user experience. My studies in business administration and my experience as a business owner have given me a unique perspective on how to build products that are not only technically sound but also that are aligned with the business goals of the company.",
-  avatarUrl: "https://media.licdn.com/dms/image/D4D03AQFmTbqv6Qllfg/profile-displayphoto-shrink_800_800/0/1698201392969?e=1709769600&v=beta&t=RmVFmBLT9MnZRgKL8f4rKFrEllcFCFmmreEx7X0ucGA",
+  avatarUrl:
+    "https://media.licdn.com/dms/image/D4D03AQFmTbqv6Qllfg/profile-displayphoto-shrink_800_800/0/1698201392969?e=1709769600&v=beta&t=RmVFmBLT9MnZRgKL8f4rKFrEllcFCFmmreEx7X0ucGA",
   personalWebsiteUrl: "https://ouidev.netlify.app/",
   contact: {
     email: "logicalbrainstudio@gmail.com",
     tel: "+5493463645114",
-    pdfResumeUrl: "https:",
     social: [
       {
         name: "GitHub",
@@ -66,13 +66,25 @@ export const RESUME_DATA = {
     },
     {
       school: "EFSet.org",
-      degree: "Certificate of Proficiency in English. Score: 76/100 (C2 Proficient)",
+      degree:
+        "Certificate of Proficiency in English. Score: 76/100 (C2 Proficient)",
       start: "2023",
       end: "2023",
-      link: "https://www.efset.org/cert/USqt9c"
-    }
+      link: "https://www.efset.org/cert/USqt9c",
+    },
   ],
   work: [
+    {
+      company: "Ruta 3 SRL",
+      link: "https://ruta3.netlify.app/",
+      badges: ["Remote", "Freelance"],
+      title: "Full Stack Developer",
+      logo: ConsultlyLogo,
+      start: "Aug, 2023",
+      end: "Present",
+      description:
+        "In charge of developing a webapp for managing the trips of a transport company. Users are able to search for different trip offers, choose their available driver and truck, and then proceed to book it. While admin is responsible for creating offers and managing the trips.",
+    },
     {
       company: "Camia Hnos!",
       link: null,
@@ -85,13 +97,7 @@ export const RESUME_DATA = {
         "Camia Hnos! is an electronics retail store in Canals, Cordoba. I am responsible for the day-to-day operations of the business, including managing employees, overseeing the financials, and ensuring we are delivering the best customer experience possible.",
     },
   ],
-  skills: [
-    "HTML5",
-    "CSS3",
-    "JavaScript",
-    "ReactJS",
-    "NodeJS",
-  ],
+  skills: ["HTML5", "CSS3", "JavaScript", "ReactJS", "NodeJS"],
   softSkills: [
     "Problem Solving",
     "Critical Thinking",
@@ -105,14 +111,9 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Ruta 3 SRL",
-      techStack: [
-        "Webapp",
-        "ReactJS",
-        "Vite",
-        "Firebase",
-        "Firestore",
-      ],
-      description: "A webapp for managing the operations and logistics of a transport company. It includes a dashboard for the company's managers and a mobile app for the drivers.",
+      techStack: ["Webapp", "ReactJS", "Vite", "Firebase", "Firestore"],
+      description:
+        "A webapp for managing the operations and logistics of a transport company. It includes a dashboard for the company's managers and a mobile app for the drivers.",
       logo: ConsultlyLogo,
       link: {
         label: "ruta3 link",
@@ -143,7 +144,14 @@ export const RESUME_DATA = {
     },
     {
       title: "eCommerce w/ NodeJS",
-      techStack: ["Project", "ReactJS", "Material UI", "NodeJS", "Express", "MongoDB"],
+      techStack: [
+        "Project",
+        "ReactJS",
+        "Material UI",
+        "NodeJS",
+        "Express",
+        "MongoDB",
+      ],
       description:
         "An eCommerce website built with ReactJS and Material UI for the frontend, and NodeJS, MongoDB and Express for the backend.",
       logo: YearProgressLogo,
