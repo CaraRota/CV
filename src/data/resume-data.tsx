@@ -15,7 +15,7 @@ export const RESUME_DATA = {
   location: "Canals, Cordoba, Argentina",
   locationLink: "https://maps.app.goo.gl/z8z4ZhLXkLaBEThN7",
   about:
-    "Full Stack Developer focused on building products with extra attention to detail and prone to delivering quality software solutions.",
+    "Full Stack Developer Junior with English level C2, looking for new challenges and opportunities to grow professionally.",
   summary:
     "As a Full Stack Developer, I am capable of developing products from 0 to 1. I am leaned towards building software that is scalable, easy to use, and that provide a great user experience. My studies in business administration and my experience as a business owner have given me a unique perspective on how to build products that are not only technically sound but also that are aligned with the business goals of the company.",
   avatarUrl:
@@ -97,7 +97,15 @@ export const RESUME_DATA = {
         "Camia Hnos! is an electronics retail store in Canals, Cordoba. I am responsible for the day-to-day operations of the business, including managing employees, overseeing the financials, and ensuring we are delivering the best customer experience possible.",
     },
   ],
-  skills: ["HTML5", "CSS3", "JavaScript", "ReactJS", "NodeJS"],
+  skills: [
+    "🧱 HTML5",
+    "🎨 CSS3",
+    "👨🏻‍💻 JavaScript",
+    "💻 ReactJS",
+    "🧶 NodeJS",
+    "🐱‍👤 Git/GitHub",
+    "📗 English C2",
+  ],
   softSkills: [
     "Problem Solving",
     "Critical Thinking",
@@ -111,7 +119,15 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Ruta 3 SRL",
-      techStack: ["Webapp", "ReactJS", "Vite", "Firebase", "Firestore"],
+      techStack: [
+        "Webapp",
+        "ReactJS",
+        "Vite",
+        "Firebase",
+        "Firestore",
+        "Material UI",
+        "React Hook Forms",
+      ],
       description:
         "A webapp for managing the operations and logistics of a transport company. It includes a dashboard for the company's managers and a mobile app for the drivers.",
       logo: ConsultlyLogo,
@@ -191,6 +207,16 @@ export const RESUME_DATA = {
       link: {
         label: "Dulce Flor",
         href: "https://dulceflor.netlify.app/",
+      },
+    },
+    {
+      title: "Online CV",
+      techStack: ["Project", "TypeScript", "TailwindCSS", "NextJS"],
+      description: "This very own CV is what im talking about!",
+      logo: BarepapersLogo,
+      link: {
+        label: "Personal CV Online",
+        href: undefined,
       },
     },
   ],

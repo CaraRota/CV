@@ -22,9 +22,6 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
-              {RESUME_DATA.about}
-            </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
@@ -35,6 +32,31 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
+            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+              {RESUME_DATA.about}
+            </p>
+            <Section>
+              {/* <h2 className="text-xl font-bold">Skills</h2> */}
+              <div className="flex flex-wrap gap-1">
+                {RESUME_DATA.skills.map((skill) => {
+                  return (
+                    <Badge
+                      key={skill}
+                      className="bg-slate-700 text-slate-100 hover:bg-slate-100 hover:text-slate-700"
+                    >
+                      {skill === "📗 English C2" ? (
+                        <span className="text-amber-300 hover:text-slate-700">
+                          {skill}
+                        </span>
+                      ) : (
+                        skill
+                      )}
+                    </Badge>
+                  );
+                })}
+              </div>
+            </Section>
+
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
                 <Button
@@ -99,6 +121,72 @@ export default function Page() {
             {RESUME_DATA.summary}
           </p>
         </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Work Experience</h2>
+          {RESUME_DATA.work.map((work) => {
+            return (
+              <Card key={work.company}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      {work.link ? (
+                        <>
+                          <GreenDot />
+                          <a
+                            className="hover:underline"
+                            href={work.link}
+                            target="_blank"
+                          >
+                            {work.company}
+                          </a>
+                        </>
+                      ) : (
+                        work.company
+                      )}
+                      <span className="inline-flex gap-x-1">
+                        {work.badges.map((badge) => (
+                          <Badge
+                            variant="secondary"
+                            className="bg-slate-700 align-middle text-xs text-slate-100 hover:bg-slate-100 hover:text-slate-700"
+                            key={badge}
+                          >
+                            {badge}
+                          </Badge>
+                        ))}
+                      </span>
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {work.start} - {work.end}
+                    </div>
+                  </div>
+
+                  <h4 className="font-mono text-sm leading-none">
+                    {work.title}
+                  </h4>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs">
+                  {work.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Soft Skills</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.softSkills.map((softSkill) => {
+              return (
+                <Badge
+                  key={softSkill}
+                  className="bg-slate-700 text-slate-100 hover:bg-slate-100 hover:text-slate-700"
+                >
+                  {softSkill}
+                </Badge>
+              );
+            })}
+          </div>
+        </Section>
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
@@ -132,73 +220,6 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section>
-          <h2 className="text-xl font-bold">Work Experience</h2>
-          {RESUME_DATA.work.map((work) => {
-            return (
-              <Card key={work.company}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      {work.link ? (
-                        <>
-                          <GreenDot />
-                          <a
-                            className="hover:underline"
-                            href={work.link}
-                            target="_blank"
-                          >
-                            {work.company}
-                          </a>
-                        </>
-                      ) : (
-                        work.company
-                      )}
-                      <span className="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
-                      </span>
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end}
-                    </div>
-                  </div>
-
-                  <h4 className="font-mono text-sm leading-none">
-                    {work.title}
-                  </h4>
-                </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                  {work.description}
-                </CardContent>
-              </Card>
-            );
-          })}
-        </Section>
-        <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
-        </Section>
-
-        <Section>
-          <h2 className="text-xl font-bold">Soft Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.softSkills.map((softSkill) => {
-              return <Badge key={softSkill}>{softSkill}</Badge>;
-            })}
-          </div>
-        </Section>
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
@@ -216,7 +237,6 @@ export default function Page() {
           </div>
         </Section>
       </section>
-
       <CommandMenu
         links={[
           {
