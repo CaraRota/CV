@@ -98,13 +98,13 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "📗 English C2",
     "🧱 HTML5",
     "🎨 CSS3",
     "👨🏻‍💻 JavaScript",
     "💻 ReactJS",
     "🧶 NodeJS",
     "🐱‍👤 Git/GitHub",
-    "📗 English C2",
   ],
   softSkills: [
     "Problem Solving",
