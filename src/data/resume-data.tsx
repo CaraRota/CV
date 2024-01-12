@@ -55,7 +55,7 @@ export const RESUME_DATA = {
       degree: "Full Stack Developer (MERN Stack)",
       start: "2022",
       end: "2023",
-      link: null,
+      link: "https://www.coderhouse.com/certificados/659c4405204fe201166149d6?lang=en",
     },
     {
       school: "Cambridge University",
