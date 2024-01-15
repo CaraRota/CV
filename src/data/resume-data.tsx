@@ -188,6 +188,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Telegram Bot",
+      techStack: ["Side Project", "NodeJS", "Telegram API"],
+      description:
+        "A Telegram bot that shows the currency exchange rate of the Argentine Peso, along with crypto prices and price of the main stock market shares, among other things.",
+      logo: YearProgressLogo,
+      link: {
+        label: "telegram bot  ",
+        href: "https://t.me/MoraditaDevBot",
+      },
+    },
+    {
       title: "How is it outside?",
       techStack: ["Side Project", "ReactJS", "SASS"],
       description:
